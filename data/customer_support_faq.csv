@@ -1,0 +1,22 @@
+This dataset is used for the Customer Support Assistant project. It contains common customer service questions and corresponding answers, helping to fine-tune the assistant for a realistic customer support environment.
+
+File Location: data/customer_support_faq.csv
+
+File Format
+The structure is similar to domain_faqs.csv, with two columns:
+
+question: The customer query.
+answer: The customer support assistant’s response.
+
+question,answer
+"How do I reset my password?", "Please go to the login page and click on 'Forgot Password' to reset your password."
+"Can I change my shipping address after placing an order?", "Yes, you can update your shipping address before the order is shipped by visiting your account settings."
+"How do I track my order?", "You can track your order using the tracking link provided in your confirmation email."
+"Can I return a product?", "Yes, products can be returned within 30 days of purchase. Please visit our returns page for more information."
+"How can I contact customer support?", "You can reach customer support via chat, email, or phone at any time."
+"Do you offer international shipping?", "Yes, we offer international shipping to selected countries. Please check our shipping policy for more details."
+
+
+Explanation of Content
+This CSV file provides a set of common support questions, covering topics like order tracking, returns, and general inquiries. The assistant can be fine-tuned to provide accurate responses to these queries. Users can modify this file to match specific customer service needs or test the assistant’s handling of different types of questions.
+

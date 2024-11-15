@@ -1,0 +1,4 @@
+General Guidelines for Customising the Data Folder
+Adding More Data: Users can add more rows to the CSV files or additional paragraphs to the text file to test different functionalities of the models.
+Changing Domains: For domain-specific testing, users can replace the domain_faqs.csv questions and answers with data from a different field (e.g., healthcare, tech support, education).
+Data Quality: Ensure that the data in each file is clean, concise, and relevant to the intended purpose, as this will directly impact the model’s performan

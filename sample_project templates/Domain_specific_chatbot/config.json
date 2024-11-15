@@ -1,0 +1,10 @@
+### **config.json**
+
+```json
+{
+  "model_name": "gpt-neo-125M",
+  "max_length": 100,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "fine_tune_epochs": 3
+}

@@ -1,0 +1,12 @@
+This file contains sample long-form documents used in the Text Summarisation Tool project. The purpose of this dataset is to provide text that can be summarised, helping users see how LLMs can generate concise summaries from extended content.
+
+This is a sample document containing detailed information on renewable energy sources. Renewable energy sources like solar, wind, and hydro are critical for sustainable development. This document discusses how each source contributes to reducing environmental impact, lowering energy costs, and promoting a cleaner planet. By focusing on renewable energy, we can reduce our reliance on fossil fuels and help address climate change. Various policies and incentives are also promoting the growth of renewable technologies.
+
+The use of solar panels has surged globally, with more homes and businesses opting for solar installations. Wind energy, especially offshore wind farms, is expanding, providing clean energy to thousands of households. Hydropower, one of the oldest renewable sources, continues to be a stable, low-cost energy source.
+
+Another aspect discussed in this document is the role of government and international organisations in promoting renewable energy adoption. As more countries invest in green energy, global carbon emissions can be significantly reduced.
+
+Explanation of Content
+Each paragraph in this file provides a complete thought or topic that the LLM will summarise. Users can modify or add more documents to sample_texts.txt to further test the summarisation tool.
+
+

@@ -1,0 +1,21 @@
+This file includes a set of frequently asked questions and answers, tailored to a specific domain, for use in the Domain-Specific Chatbot project. This dataset allows users to fine-tune the chatbot on common queries for a chosen domain (e.g., banking, healthcare, education).
+
+File Location: data/domain_faqs.csv
+
+File Format
+The CSV file has two columns:
+
+question: The question or query from a user.
+answer: The corresponding response the chatbot should provide.
+
+question,answer
+"What is the minimum balance requirement?", "The minimum balance required is $500."
+"How do I apply for a loan?", "To apply for a loan, please fill out the online form on our website."
+"Can I change my account password?", "Yes, you can change your password in your account settings."
+"What is the interest rate for savings accounts?", "The current interest rate for savings accounts is 1.5% annually."
+"How do I close my account?", "Please visit a branch or contact customer service to close your account."
+"Is there a fee for international transactions?", "Yes, international transactions incur a fee of 2% of the transaction amount."
+
+
+Explanation of Content
+Each question-answer pair provides the chatbot with examples of typical customer queries and the expected responses. Users can modify domain_faqs.csv by adding, removing, or editing rows to tailor the dataset to different domains, such as retail, healthcare, or education.
