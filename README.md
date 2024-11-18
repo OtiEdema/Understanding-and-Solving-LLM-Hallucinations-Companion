@@ -2,50 +2,256 @@
 ![Halucination cover page](https://github.com/user-attachments/assets/596b222e-b305-4c35-bc3a-014aa94f9d4c)
 
 
-# Understanding-and-Solving-LLM-Hallucinations-Companion.
-Companion repository for "Understanding and Solving LLM Hallucinations: A Comprehensive Guide" containing code, data, notebooks, and resources.
+# Understanding and Solving LLM Hallucinations: A Comprehensive Guide
 
 
-# Understanding and Solving LLM Hallucinations: Companion GitHub Repository
-
-Welcome to the official GitHub repository for *Understanding and Solving LLM Hallucinations: A Comprehensive Guide*! This repository contains all the code, data, Jupyter notebooks, and resources needed to follow along with the book. Each folder and file is organised by chapter, providing a structured, hands-on experience with Large Language Models (LLMs) and techniques for mitigating hallucinations.
-
-## Contents
-
-- **notebooks/**: Jupyter notebooks with code examples and exercises, organised by chapter.
-- **src/**: Python scripts for reusable functions and workflows, including data preprocessing, model training, evaluation, and utility functions.
-- **data/**: Sample and processed data files used in examples and exercises.
-- **configs/**: JSON configuration files to set up model parameters and evaluation settings.
-- **examples/**: Step-by-step guides on specific tasks such as prompt engineering, fine-tuning, and quantisation.
-- **docs/**: Supplementary resources and reference materials to deepen your understanding.
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- Recommended: A GPU-enabled environment for faster model training.
-
-Install dependencies with:
-```bash
-pip install -r requirements.txt
-
-Usage
-To get started, open the Jupyter notebooks in the notebooks/ folder. Each notebook is named according to the chapter it corresponds to, making it easy to follow along with the book.
-
-License
-This repository is licensed under the MIT License.
-
-Happy coding and learning!
+Welcome to the **Understanding and Solving LLM Hallucinations** repository! This repository is a companion to the book of the same name, which delves into the causes, impacts, and mitigation techniques for hallucinations in Large Language Models (LLMs). It provides practical implementations, exercises, and tools to help AI practitioners, researchers, and enthusiasts understand and build better-performing LLMs.
 
 ---
 
-#### **2. requirements.txt**
+## 📖 About the Book
 
-Create a `requirements.txt` file in the root directory:
+Large Language Models have revolutionised Natural Language Processing (NLP) by enabling machines to generate and understand text in a human-like manner. However, these models are prone to hallucinations—generating plausible-sounding but incorrect or fabricated outputs. This repository provides:
+
+- Practical examples for identifying and mitigating hallucinations.
+- Code for experiments discussed in the book.
+- Tools and techniques for improving LLM performance.
+- A roadmap for building ethical and memory-efficient LLM applications.
+
+---
+
+## 📂 Repository Structure
 
 ```plaintext
-transformers
-torch
-pandas
-flask
+├── data/                # Sample datasets for exercises and case studies.
+├── notebooks/           # Jupyter notebooks for each chapter with detailed code implementations.
+├── sample_projects/     # End-to-end project templates for real-world applications.
+├── scripts/             # Utility scripts for experiments and model training.
+├── models/              # Pre-trained and fine-tuned model checkpoints.
+├── docs/                # Supplementary documentation and additional resources.
+├── README.md            # This file.
+
+---
+
+##🚀 Features
+
+- Comprehensive Coverage: Implements every major concept from the book.
+- Hands-On Exercises: Includes Jupyter notebooks for in-depth learning.
+- Ethical and Responsible AI: Tools and techniques to deploy AI responsibly.
+- Low-Memory Solutions: Efficient implementations using quantisation and pruning.
+- Case Studies: Real-world applications to demonstrate practical relevance.
+
+---
+
+## 🛠️ Installation and Setup
+
+Follow these steps to set up the repository on your local machine:
+
+- Recommended: A GPU-enabled environment for faster model training.
+
+1. Clone the Repository
+
+2. Create a Virtual Environment
+
+    python3 -m venv venv
+    source venv/bin/activate  # For Linux/Mac
+    venv\Scripts\activate     # For Windows
+
+3. Install Required Libraries
+
+    pip install -r requirements.txt
+
+---
+
+## 📘 Usage
+
+### Running Jupyter Notebooks
+The notebooks/ folder contains Jupyter notebooks corresponding to each chapter of the book. To start:
+    jupyter notebook
+
+Open the notebook for the desired chapter and follow along with the examples and exercises.
+
+### Sample Projects
+The sample_projects/ folder provides templates for real-world applications, including:
+
+    Chatbot Development
+    Multimodal LLMs
+    Ethical and Fair AI Pipelines
+
+Refer to the README inside sample_projects/ for detailed instructions.
+
+---
+
+## 📊 Key Concepts
+
+This repository covers:
+
+    Introduction to LLMs: Basics, transformer architecture, and applications.
+    Hallucinations: Identification, causes, and impacts.
+    Mitigation Techniques: Prompt engineering, retrieval grounding, and fine-tuning.
+    Memory Optimisation: Quantisation and pruning techniques.
+    Ethical AI: Tools and frameworks for bias detection, transparency, and privacy.
+    Future Trends: Multimodal models, quantum computing, and sustainability.
+
+---
+
+## 🧑‍💻 Contributing
+We welcome contributions! To contribute:
+
+1.  Fork the repository.
+2.  Create a feature branch:
+
+    git checkout -b feature-name
+
+3.  Commit your changes
+    git commit -m "Add feature name"
+
+4. Push to the branch:
+    git push origin feature-name
+
+5.  Open a Pull Request on GitHub.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## 🔗 References
+
+## References
+
+This section contains all the references and resources cited or used as inspiration for the content in this repository.
+
+---
+
+### Papers and Research Articles
+1. **Attention is All You Need**  
+   Vaswani, A., et al. (2017).  
+   [Link to Paper](https://arxiv.org/abs/1706.03762)  
+   This paper introduces the transformer architecture, the backbone of modern LLMs.
+
+2. **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**  
+   Devlin, J., et al. (2019).  
+   [Link to Paper](https://arxiv.org/abs/1810.04805)  
+   This paper introduces BERT, one of the most influential LLMs.
+
+3. **Language Models are Few-Shot Learners**  
+   Brown, T., et al. (2020).  
+   [Link to Paper](https://arxiv.org/abs/2005.14165)  
+   This paper presents GPT-3, a breakthrough in LLM capabilities.
+
+4. **LLaMA: Open and Efficient Foundation Language Models**  
+   Touvron, H., et al. (2023).  
+   [Link to Paper](https://arxiv.org/abs/2302.13971)  
+   A paper by Meta AI introducing the LLaMA family of models.
+
+---
+
+### Tools and Libraries
+1. **Hugging Face Transformers Library**  
+   [GitHub Repository](https://github.com/huggingface/transformers)  
+   A popular library for working with pre-trained models like GPT, BERT, and more.
+
+2. **OpenAI GPT-4 API**  
+   [Documentation](https://platform.openai.com/docs/)  
+   Official documentation for accessing GPT-4 and other OpenAI APIs.
+
+3. **CodeCarbon**  
+   [GitHub Repository](https://github.com/mlco2/codecarbon)  
+   A tool for tracking the carbon emissions of machine learning experiments.
+
+4. **Qiskit**  
+   [Official Documentation](https://qiskit.org/documentation/)  
+   A library for working with quantum computing workflows.
+
+5. **Opacus**  
+   [GitHub Repository](https://github.com/pytorch/opacus)  
+   A library for training PyTorch models with differential privacy.
+
+6. **SHAP (SHapley Additive exPlanations)**  
+   [GitHub Repository](https://github.com/slundberg/shap)  
+   A tool for explainability in machine learning models.
+
+---
+
+### Books and Tutorials
+1. **Deep Learning for Natural Language Processing**  
+   [Book Link](https://www.packtpub.com/product/deep-learning-for-natural-language-processing/9781838984393)  
+   A comprehensive guide to deep learning techniques for NLP.
+
+2. **The Illustrated Transformer**  
+   [Online Tutorial](https://jalammar.github.io/illustrated-transformer/)  
+   A visual explanation of the transformer architecture.
+
+---
+
+### Datasets
+1. **Common Crawl**  
+   [Website](https://commoncrawl.org/)  
+   A publicly available dataset used for pre-training many LLMs.
+
+2. **SQuAD: The Stanford Question Answering Dataset**  
+   [Website](https://rajpurkar.github.io/SQuAD-explorer/)  
+   A dataset widely used for evaluating LLMs on question answering tasks.
+
+3. **Wikipedia Dumps**  
+   [Download](https://dumps.wikimedia.org/)  
+   Frequently used for training LLMs due to its vast and diverse content.
+
+---
+
+### Ethical AI and Fairness
+1. **AIF360: AI Fairness 360 Toolkit**  
+   [GitHub Repository](https://github.com/Trusted-AI/AIF360)  
+   A toolkit for detecting and mitigating bias in machine learning models.
+
+2. **Guidelines for Trustworthy AI**  
+   European Commission (2019).  
+   [Link to Guidelines](https://ec.europa.eu/digital-strategy/en/news/ethics-guidelines-trustworthy-ai)  
+   A framework for building AI systems that are ethical and trustworthy.
+
+3. **Fairness and Accountability in Machine Learning (FAccT)**  
+   [Conference Proceedings](https://facctconference.org/)  
+   Annual research proceedings focusing on fairness and accountability in AI.
+
+---
+
+### Tutorials and Blogs
+1. **Hugging Face Course**  
+   [Link to Course](https://huggingface.co/course/chapter1)  
+   A free course for learning how to use Hugging Face libraries.
+
+2. **OpenAI Blog**  
+   [Link to Blog](https://openai.com/blog/)  
+   Updates and tutorials from OpenAI about their models and research.
+
+3. **Google AI Blog**  
+   [Link to Blog](https://ai.googleblog.com/)  
+   A blog showcasing advancements in AI research from Google.
+
+---
+
+### Acknowledgements
+
+- Special thanks to the open-source community for developing the tools and resources referenced here.
+- Thanks to researchers and organisations driving advancements in ethical and responsible AI.
+
+---
+
+## 🙌 Acknowledgements
+
+Special thanks to:
+
+- The open-source community for their contributions to AI and   machine learning.
+- Researchers advancing ethical AI development and deployment.
+- Readers and contributors to this repository who make this project impactful.
+
+---
+
+## 📧 Contact
+
+You can contact me here on Github or on Linkedin https://www.linkedin.com/in/oti-e-34838485/
+
