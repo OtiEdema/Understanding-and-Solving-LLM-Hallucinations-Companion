@@ -1,3 +1,7 @@
+
+![Halucination cover page](https://github.com/user-attachments/assets/3bc3a3b2-8f06-45ef-8785-1288d80927a6)
+
+
 # Understanding-and-Solving-LLM-Hallucinations-Companion.
 Companion repository for "Understanding and Solving LLM Hallucinations: A Comprehensive Guide" containing code, data, notebooks, and resources.
 
