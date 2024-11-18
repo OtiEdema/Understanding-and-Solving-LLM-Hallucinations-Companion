@@ -1,9 +1,8 @@
 
 ![Halucination cover page](https://github.com/user-attachments/assets/596b222e-b305-4c35-bc3a-014aa94f9d4c)
 
-
+```markdown
 # Understanding and Solving LLM Hallucinations: A Comprehensive Guide
-
 
 Welcome to the **Understanding and Solving LLM Hallucinations** repository! This repository is a companion to the book of the same name, which delves into the causes, impacts, and mitigation techniques for hallucinations in Large Language Models (LLMs). It provides practical implementations, exercises, and tools to help AI practitioners, researchers, and enthusiasts understand and build better-performing LLMs.
 
@@ -30,16 +29,17 @@ Large Language Models have revolutionised Natural Language Processing (NLP) by e
 ├── models/              # Pre-trained and fine-tuned model checkpoints.
 ├── docs/                # Supplementary documentation and additional resources.
 ├── README.md            # This file.
+```
 
 ---
 
-##🚀 Features
+## 🚀 Features
 
-- Comprehensive Coverage: Implements every major concept from the book.
-- Hands-On Exercises: Includes Jupyter notebooks for in-depth learning.
-- Ethical and Responsible AI: Tools and techniques to deploy AI responsibly.
-- Low-Memory Solutions: Efficient implementations using quantisation and pruning.
-- Case Studies: Real-world applications to demonstrate practical relevance.
+- **Comprehensive Coverage**: Implements every major concept from the book.
+- **Hands-On Exercises**: Includes Jupyter notebooks for in-depth learning.
+- **Ethical and Responsible AI**: Tools and techniques to deploy AI responsibly.
+- **Low-Memory Solutions**: Efficient implementations using quantisation and pruning.
+- **Case Studies**: Real-world applications to demonstrate practical relevance.
 
 ---
 
@@ -47,85 +47,84 @@ Large Language Models have revolutionised Natural Language Processing (NLP) by e
 
 Follow these steps to set up the repository on your local machine:
 
-- Recommended: A GPU-enabled environment for faster model training.
+### 1. Clone the Repository
+```bash
+git clone https://github.com/OtiEdema/Understanding-and-Solving-LLM-Hallucinations-Companion.git
+cd llm-hallucinations-guide
+```
 
-1. Clone the Repository
+### 2. Create a Virtual Environment
+```bash
+python3 -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate     # For Windows
+```
 
-2. Create a Virtual Environment
-
-    python3 -m venv venv
-    source venv/bin/activate  # For Linux/Mac
-    venv\Scripts\activate     # For Windows
-
-3. Install Required Libraries
-
-    pip install -r requirements.txt
+### 3. Install Required Libraries
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
 ## 📘 Usage
 
 ### Running Jupyter Notebooks
-The notebooks/ folder contains Jupyter notebooks corresponding to each chapter of the book. To start:
-    jupyter notebook
-
+The `notebooks/` folder contains Jupyter notebooks corresponding to each chapter of the book. To start:
+```bash
+jupyter notebook
+```
 Open the notebook for the desired chapter and follow along with the examples and exercises.
 
 ### Sample Projects
-The sample_projects/ folder provides templates for real-world applications, including:
+The `sample_projects/` folder provides templates for real-world applications, including:
+- **Chatbot Development**
+- **Multimodal LLMs**
+- **Ethical and Fair AI Pipelines**
 
-    Chatbot Development
-    Multimodal LLMs
-    Ethical and Fair AI Pipelines
-
-Refer to the README inside sample_projects/ for detailed instructions.
+Refer to the README inside `sample_projects/` for detailed instructions.
 
 ---
 
 ## 📊 Key Concepts
 
 This repository covers:
-
-    Introduction to LLMs: Basics, transformer architecture, and applications.
-    Hallucinations: Identification, causes, and impacts.
-    Mitigation Techniques: Prompt engineering, retrieval grounding, and fine-tuning.
-    Memory Optimisation: Quantisation and pruning techniques.
-    Ethical AI: Tools and frameworks for bias detection, transparency, and privacy.
-    Future Trends: Multimodal models, quantum computing, and sustainability.
+1. **Introduction to LLMs**: Basics, transformer architecture, and applications.
+2. **Hallucinations**: Identification, causes, and impacts.
+3. **Mitigation Techniques**: Prompt engineering, retrieval grounding, and fine-tuning.
+4. **Memory Optimisation**: Quantisation and pruning techniques.
+5. **Ethical AI**: Tools and frameworks for bias detection, transparency, and privacy.
+6. **Future Trends**: Multimodal models, quantum computing, and sustainability.
 
 ---
 
 ## 🧑‍💻 Contributing
+
 We welcome contributions! To contribute:
-
-1.  Fork the repository.
-2.  Create a feature branch:
-
-    git checkout -b feature-name
-
-3.  Commit your changes
-    git commit -m "Add feature name"
-
+1. Fork the repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature name"
+   ```
 4. Push to the branch:
-    git push origin feature-name
-
-5.  Open a Pull Request on GitHub.
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a Pull Request on GitHub.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🔗 References
-
-## References
-
-This section contains all the references and resources cited or used as inspiration for the content in this repository.
-
----
 
 ### Papers and Research Articles
 1. **Attention is All You Need**  
@@ -234,18 +233,10 @@ This section contains all the references and resources cited or used as inspirat
 
 ---
 
-### Acknowledgements
-
-- Special thanks to the open-source community for developing the tools and resources referenced here.
-- Thanks to researchers and organisations driving advancements in ethical and responsible AI.
-
----
-
 ## 🙌 Acknowledgements
 
 Special thanks to:
-
-- The open-source community for their contributions to AI and   machine learning.
+- The open-source community for their contributions to AI and machine learning.
 - Researchers advancing ethical AI development and deployment.
 - Readers and contributors to this repository who make this project impactful.
 
@@ -253,5 +244,7 @@ Special thanks to:
 
 ## 📧 Contact
 
-You can contact me here on Github or on Linkedin https://www.linkedin.com/in/oti-e-34838485/
-
+For questions or support, feel free to reach out:
+- **Author**: Oti Edema
+- **GitHub**: [OtiEdema](https://github.com/OtiEdema)
+```
