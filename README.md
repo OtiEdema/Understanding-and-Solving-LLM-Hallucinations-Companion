@@ -1,5 +1,5 @@
 
-![Halucination cover page](https://github.com/user-attachments/assets/596b222e-b305-4c35-bc3a-014aa94f9d4c)
+![Halucination cover](https://github.com/user-attachments/assets/937b2e2d-7b88-4e26-9fd2-f25b3226c50d)
 
 ```markdown
 # Understanding and Solving LLM Hallucinations: A Comprehensive Guide
