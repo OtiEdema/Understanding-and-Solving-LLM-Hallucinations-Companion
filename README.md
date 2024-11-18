@@ -1,5 +1,5 @@
 
-![Halucination cover page](https://github.com/user-attachments/assets/3bc3a3b2-8f06-45ef-8785-1288d80927a6)
+![Halucination cover page](https://github.com/user-attachments/assets/596b222e-b305-4c35-bc3a-014aa94f9d4c)
 
 
 # Understanding-and-Solving-LLM-Hallucinations-Companion.
